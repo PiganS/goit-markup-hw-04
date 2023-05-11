@@ -13,6 +13,7 @@
   --button-hover-color: #404bbf;
   --customers-icons: #8e8f99;
   --customers-hover-icons: #404bbf;
+  --our-team-icons: #f4f4fd;
 
   /* text color */
   --footer-text-color: #f4f4fd;
@@ -407,7 +408,8 @@ ul {
 }
 
 .our-team-item-text {
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   text-align: center;
 }
 
@@ -442,7 +444,7 @@ ul {
 }
 
 .our-team-icons {
-  fill: var(--button-normal-color);
+  fill: var(--our-team-icons);
 }
 
 /*=================customers=================*/
@@ -450,6 +452,10 @@ ul {
 .section-customers {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.customers.section-title {
+  line-height: 1.1;
 }
 
 .customers-icons-list {
